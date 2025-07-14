@@ -1,3 +1,8 @@
 CUSTOM_MATRIX = lite
 SRC += matrix.c
 I2C_DRIVER_REQUIRED = yes
+
+# Custom config
+CAPS_WORD_ENABLE = yes
+LAYER_LOCK_ENABLE = yes
+NKRO_DEFAULT_ON = yes
